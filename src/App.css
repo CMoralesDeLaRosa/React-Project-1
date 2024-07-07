@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+  min-height: 100svh;
+}
+
+.app > div {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+}
+
+button {
+  width: 250px;
+  height: 70px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+button:hover {
+  scale: 0.9;
+}
+
+.rest {
+  background-color: rgb(149, 200, 255);
+}
+
+.rest:hover {
+  background-color: rgb(100, 174, 252);
+}
+
+.sum {
+  background-color: rgb(254, 192, 129);
+}
+
+.sum:hover {
+  background-color: rgb(240, 162, 84);
+}
